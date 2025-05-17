@@ -9,7 +9,7 @@ const searchArray = [11, 5, 8, 3, 25, 16, 31, 45, 14, 20];
 // console.log(searchArray);
 
 // set the value of we are searching for
-let key = 81;
+let myKey = 81;
 // console.log(`key: ${key}`);
 
 // create the search function
@@ -39,11 +39,11 @@ function sequentialSearch(arraySearch, target) {
 }
 
 // call the function
-const result = sequentialSearch(searchArray, key);
+const myResult = sequentialSearch(searchArray, myKey);
 // output the results
 
-if (result == -1) {
-  console.log(`The key of ${key} was not found ${result}`);
+if (myResult == -1) {
+  console.log(`The key of ${myKey} was not found ${myResult}`);
 } else {
-  console.log(`The key of ${key} was found at index ${result}`);
+  console.log(`The key of ${myKey} was found at index ${myResult}`);
 }
