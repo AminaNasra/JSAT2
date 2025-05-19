@@ -17,4 +17,9 @@ myMovie.Rating = 4;
 myMovie.Year = 1962;
 
 // output myMovie object after changing property data
+// console.log(myMovie);
+
+// removing property from myMOvie object
+delete myMovie.Summary;
+//ouput myMovie object to console
 console.log(myMovie);
