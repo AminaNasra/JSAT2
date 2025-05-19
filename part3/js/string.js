@@ -6,23 +6,27 @@ let myName = "Amina";
 
 // ouputing strings
 // console.log(
-`myString: ${myString}, anotherString: ${anotherString}, hello: ${hello}, myName: ${myName}`;
+// `myString: ${myString}, anotherString: ${anotherString}, hello: ${hello}, myName: ${myName}`;
 // );
 
 // using string utility functions
 // finding the length of myString
-console.log(`length: ${myString.length}`);
+// console.log(`length: ${myString.length}`);
 
 // finding the first character of myString
-console.log(`first character: ${myString[0]}`);
+// console.log(`first character: ${myString[0]}`);
 
 // finding the 11th character of myString
-console.log(`11th character: ${myString.charAt(10)}`);
+// console.log(`11th character: ${myString.charAt(10)}`);
 
 // using function slice to extract part of a string
 let slicedString = myString.slice(5, 10);
-console.log(`slicedString: ${slicedString}`);
+// console.log(`slicedString: ${slicedString}`);
 
 // using function substring to get part of a string
 let substringString = anotherString.substring(6, 9);
-console.log(`substring: ${substringString}`);
+// console.log(`substring: ${substringString}`);
+
+// changing the myName variable value to upper and lowecase and outputing to screen
+console.log(myName.toUpperCase());
+console.log(myName.toLowerCase());
