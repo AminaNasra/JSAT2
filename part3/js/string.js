@@ -1,3 +1,9 @@
+// file: strings.js
+// desc: This file shows strings and string methods
+// Author: Amina Aar
+// Last modified: 20/05/2025
+// version 1.0.0
+
 // Defining varias strings
 let myString = "This is a string";
 let anotherString = "   Another string";
