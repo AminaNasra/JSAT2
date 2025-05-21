@@ -14,3 +14,9 @@ class Movie {
     this.rating = rating;
   } // end constructor
 } // end movie class
+
+// create a movie object based on Movie class
+const movie = new Movie(1, "The Shawshank Redemption", 1994, 8.5);
+
+// output the movie object to console
+console.log(movie);
